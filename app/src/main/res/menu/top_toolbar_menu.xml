@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu_top"
+        android:title="@string/home"
+
+        />
+
+
+  <item
+     android:id="@+id/Refresh_menu_top"
+     android:title="@string/refresh"
+
+     />
+
+    <item android:title="Themes"
+        android:id="@+id/themes_top_menu">
+<menu>
+      <item
+        android:id="@+id/light_them_menu_top"
+        android:title="@string/light_themes"/>
+
+      <item
+        android:id="@+id/dark_themes_menu_top"
+        android:title="@string/dark_themes"/>
+</menu>
+</item>
+
+
+
+
+
+
+</menu>
